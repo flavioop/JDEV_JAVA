@@ -9,8 +9,25 @@ public class Pessoa {
 	private int idade;
 	private Date dataNascimento;
 	private Date dataNascimento2;
+	private String rg;
 	
-	
+		
+	public Date getDataNascimento2() {
+		return dataNascimento2;
+	}
+
+	public void setDataNascimento2(Date dataNascimento2) {
+		this.dataNascimento2 = dataNascimento2;
+	}
+
+	public String getRg() {
+		return rg;
+	}
+
+	public void setRg(String rg) {
+		this.rg = rg;
+	}
+
 	public Date getDataNascimento() {
 		return dataNascimento;
 	}
